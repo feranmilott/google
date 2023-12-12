@@ -4,7 +4,9 @@
 }
 
 body {
-    background-image: url(photo-1519501025264-65ba15a82390.avif);
+    background-image: url(images/city.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .first {
@@ -112,7 +114,7 @@ i {
 }
 
 .image p {
-    color: #ffffff;
+    color: #000;
     text-align: center;
 }
 
