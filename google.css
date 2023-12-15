@@ -188,7 +188,7 @@ i {
     left: 1px;
     color: #ffffff;
 }
-@media((min-width:300gipx)and (max-width:768px)) {
+@media((min-width:300px)and (max-width:768px)) {
     input {
         width: 25rem;
         /* align-items: center; */
