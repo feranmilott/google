@@ -202,7 +202,26 @@ i {
     left: 1px;
     color: #ffffff;
 }
-@media((min-width:300gipx)and (max-width:768px)) {
+
+@media (max-width:590px) {
+    .form{
+        width: 80%;
+        /* background-color: blue; */
+        padding:0px 9px;
+    }
+    .wrapper{
+        width: 100%;
+        /* background-color: red; */
+    }
+   .form input{
+    /* background-color: orangered; */
+    font-size: small;
+    width: 73%;
+   } 
+ 
+}
+
+/* @media((min-width:300px)and (max-width:768px)) {
     input {
         width: 25rem;
     }
@@ -230,6 +249,4 @@ i {
 
     .images {
         align-items: center;
-    }
-
-}
+    }}
