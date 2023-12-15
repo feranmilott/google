@@ -3,11 +3,19 @@
     font-family: roboto, arial,sans-serif;
 }
 
-body {
+section{
+    background-image: url(images/sustainable-cities.jpg);
+    background-size: cover;
+    /* background-size: 100%; */
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+/* body {
     background-image: url(images/city.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-}
+} */
 
 .first {
     display: flex;
@@ -51,10 +59,11 @@ button {
 }
 
 input {
-    width: 40rem;
-    border-radius: 26px;
+    width: 65%;
+    /* border-radius: 26px; */
     padding: 16px 0px;
     /* text-align: center; */
+    /* background-color: purple; */
     margin:0 auto;
     border: none;
     outline: none;
@@ -71,7 +80,12 @@ input {
 .form{
     align-items: center;
     margin: 0 auto;
-    width: 45rem;
+    width: 35rem;
+    padding:0px 15px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    /* border: 1px solid black; */
+    display: flex;
 }
 
 i {
@@ -79,11 +93,11 @@ i {
     left: 35px;
 }
 
-.form img {
+
+
+.item img {
     width: 30px;
-    position: relative;
-    left:  38rem;
-    top: -40px;
+    /* margin-right: 10px; */
 }
 
 .images {
@@ -114,7 +128,7 @@ i {
 }
 
 .image p {
-    color: #000;
+    /* color: #000; */
     text-align: center;
 }
 
@@ -188,10 +202,28 @@ i {
     left: 1px;
     color: #ffffff;
 }
-@media((min-width:300gipx)and (max-width:768px)) {
+
+@media (max-width:590px) {
+    .form{
+        width: 80%;
+        /* background-color: blue; */
+        padding:0px 9px;
+    }
+    .wrapper{
+        width: 100%;
+        /* background-color: red; */
+    }
+   .form input{
+    /* background-color: orangered; */
+    font-size: small;
+    width: 73%;
+   } 
+ 
+}
+
+/* @media((min-width:300px)and (max-width:768px)) {
     input {
         width: 25rem;
-        /* align-items: center; */
     }
 
     .picture img {
@@ -219,4 +251,4 @@ i {
         align-items: center;
     }
 
-}
+} */
